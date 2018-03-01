@@ -47,6 +47,31 @@
     left:25%;
     
 }
+.kbin_btn-primary{
+    border-radius: 0;
+    background-color: #3b1347;
+    color: white;
+    font-family:'Anaheim', sans-serif, helvetica;
+    padding-left: 1.5rem;
+    padding-right:1.5rem;
+    font-size: 1.05rem;
+    margin-left:-1vw; 
+    text-transform: uppercase;
+}
+.kbin_form-control{
+    border-radius: 0;
+    font-size: 1.05rem;
+    padding-left: 1.5rem;
+    padding-right:1.5rem;
+    border-color: #9165ab;
+
+}
+h5{
+    color: #3c1048;
+    font-family: 'Anaheim', sans-serif, helvetica;
+    font-size: 22px;
+    
+}
 .kbin_main_photo_overlay h5{
     font-family: 'Anaheim', sans-serif, helvetica;
     font-weight: 400;
