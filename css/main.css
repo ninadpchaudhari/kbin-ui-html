@@ -80,8 +80,12 @@
     padding-left: 1.5rem;
     padding-right:1.5rem;
     font-size: 1.05rem;
-    margin-left:-1vw; 
+
     text-transform: uppercase;
+}
+.kbin_btn-light{
+    border-radius: 0;
+    color:#3b1347;
 }
 .kbin_nav-item{
     border-radius: 0;
@@ -107,8 +111,11 @@
     font-size: 1.05rem;
     padding-left: 1.5rem;
     padding-right:1.5rem;
-    border-color: #9165ab;
-
+    border-color: rgba(145,101,171,0.7);
+    
+}
+.kbin_form-control::placeholder{
+    color:rgba(145,101,171,0.5);
 }
 h5{
     color: #3c1048;
