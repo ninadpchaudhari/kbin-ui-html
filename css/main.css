@@ -10,7 +10,10 @@
    .top-buffer {
     margin-top: 20px;
 }
-
+.no-padding{
+    padding-left: 0px;
+    padding-right: 0px;
+}
 .kbin_h3 {
     font-family: 'Anaheim', sans-serif, helvetica;
     font-weight: 400;
@@ -58,6 +61,47 @@
     margin-left:-1vw; 
     text-transform: uppercase;
 }
+.kbin_btn-secondary{
+    border-radius: 0;
+    background-color: #9165ab !important;
+    color: white;
+    font-family:'Anaheim', sans-serif, helvetica;
+    padding-left: 1.5rem;
+    padding-right:1.5rem;
+    font-size: 1.05rem;
+    margin-left:-1vw; 
+    text-transform: uppercase;
+}
+.kbin_btn-orange{
+    border-radius: 0;
+    background-color: orangered !important;
+    color: white;
+    font-family:'Anaheim', sans-serif, helvetica;
+    padding-left: 1.5rem;
+    padding-right:1.5rem;
+    font-size: 1.05rem;
+    margin-left:-1vw; 
+    text-transform: uppercase;
+}
+.kbin_nav-item{
+    border-radius: 0;
+    font-size: 1.0rem;
+
+    border-color: #9165ab;
+}
+
+.kbin_nav-item.active{
+    border-bottom-style: solid;
+    border-bottom-width: 0.2rem;
+    border-bottom-color:  #3c1048;
+    font-weight: bold;
+    
+}
+.kbin_nav-item a{
+    color: #3c1048;
+    font-family: 'Anaheim', sans-serif, helvetica;
+    
+}
 .kbin_form-control{
     border-radius: 0;
     font-size: 1.05rem;
@@ -69,7 +113,7 @@
 h5{
     color: #3c1048;
     font-family: 'Anaheim', sans-serif, helvetica;
-    font-size: 22px;
+    font-size:1.5rem;
     
 }
 .kbin_main_photo_overlay h5{
@@ -90,14 +134,38 @@ h5{
 
 
 
-@media (min-width: 1350px) {
+@media (min-width: 1300px) {
     .container {
-        max-width: 1350px;
+        max-width: 1300px;
     }
 }
 
 
-
+.kbin_badge-primary{
+    background-color: #3c1048;
+    color: white;
+    border-radius: 0px;
+    padding-top: 1.5vh;
+    padding-bottom: 1.5vh;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    text-transform: uppercase;
+    font-family: 'Anaheim', sans-serif, helvetica;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-left: 1vw;
+}
+.kbin_badge-secondary{
+    background-color: #9165ab;
+    color:white;
+    font-family: 'Anaheim', sans-serif, helvetica;
+    font-weight: 400;
+    font-size: 0.9rem;
+}
+.kbin_badge-primary a{
+    color: #3c1048;
+    
+}
 
 
 
