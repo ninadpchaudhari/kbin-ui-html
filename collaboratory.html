@@ -18,13 +18,16 @@
             border-right: 0;
         }
 
-        .kbin_collaboratory-name {
-            text-transform: uppercase;
-            color: #3c1048;
-            font-size: 0.9rem;
-            font-weight: 500;
-
+        .kbin_badge-header {
+            border-radius: 0px;
+            padding-top: 1.5vh;
+            padding-bottom: 1.5vh;
+            padding-left: 1vw;
+            padding-right: 1vw;
+            margin-left: 1vw;
         }
+
+
 
         .kbin_grey-text {
             color: gray;
@@ -51,9 +54,10 @@
             box-shadow: 0.1rem 0.1rem 0.1rem rgba(0, 0, 0, 0.19);
         }
 
-        .kbin_login-bar{
+        .kbin_login-bar {
             opacity: 0.9;
         }
+
         .kbin_logged-in-info {
 
             background-color: #3c1048;
@@ -107,7 +111,7 @@
     <nav class="navbar navbar-expand-lg navbar-light bg-light justify-content-center">
 
         <!--TODO : Show this only on smaller devices
-             <a class="navbar-nav kbin_nav-link .d-none" href="#">HOME</a> -->
+                 <a class="navbar-nav kbin_nav-link .d-none" href="#">HOME</a> -->
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
             aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -116,38 +120,35 @@
         <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
             <ul class="nav ">
                 <li class="nav-item">
-                    <a class="nav-link kbin_nav-link" href="index.html">HOME</a>
-                </li>
-                <li class="nav-item ">
-                    <a class="nav-link kbin_nav-link kbin_nav-link-active" href="#">COLLABORATORY
+                    <a class="nav-link kbin_nav-link kbin_nav-link-active" href="#">HOME
                         <span class="sr-only">(current)</span>
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link kbin_nav-link" href="#">RESEARCH-BASED INNOVATION</a>
+                    <a class="nav-link kbin_nav-link" href="collaboratory.html">COLLABORATORY
+
+                    </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link kbin_nav-link" href="#">BUILDING CULTURAL CAPACITY FOR INNOVATION</a>
+                    <a class="nav-link kbin_nav-link" href="rbi.html">RESEARCH-BASED INNOVATION</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link kbin_nav-link" href="post-collaboratory.html">BUILDING CULTURAL CAPACITY FOR INNOVATION</a>
                 </li>
 
                 <li class="nav-item">
-                    <a class="nav-link kbin_nav-link" href="#">KNOWLEDGE FORUM</a>
+                    <a class="nav-link kbin_nav-link" href="kb.html">KNOWLEDGE FORUM</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link kbin_nav-link" href="#">CONTRIBUTORS</a>
+                    <a class="nav-link kbin_nav-link" href="contributors.html">CONTRIBUTORS</a>
                 </li>
             </ul>
-
         </div>
-
-
-
-
     </nav>
 
-    <!-- /nav>container -->
+    <!-- /nav -->
 
-    <div >
+    <div>
         <div class="row kbin_login-bar">
             <div class="col-10 kbin_logged-in-info">
                 <div class="media">
@@ -208,14 +209,14 @@
             <br>
         </div>
         <div class="row justify-content-center">
-            <a href="#" class="badge kbin_badge-primary">Computer Science</a>
-            <a href="#" class="badge kbin_badge-primary">Engineering</a>
-            <a href="#" class="badge kbin_badge-primary">Mathematics</a>
-            <a href="#" class="badge kbin_badge-primary">Language arts</a>
-            <a href="#" class="badge kbin_badge-primary">Music</a>
-            <a href="#" class="badge kbin_badge-primary">Science</a>
-            <a href="#" class="badge kbin_badge-primary">Social Studies</a>
-            <a href="#" class="badge kbin_badge-primary">Teacher Education</a>
+            <a href="#" class="badge kbin_badge-primary kbin_badge-header">Computer Science</a>
+            <a href="#" class="badge kbin_badge-primary kbin_badge-header">Engineering</a>
+            <a href="#" class="badge kbin_badge-primary kbin_badge-header">Mathematics</a>
+            <a href="#" class="badge kbin_badge-primary kbin_badge-header">Language arts</a>
+            <a href="#" class="badge kbin_badge-primary kbin_badge-header">Music</a>
+            <a href="#" class="badge kbin_badge-primary kbin_badge-header">Science</a>
+            <a href="#" class="badge kbin_badge-primary kbin_badge-header">Social Studies</a>
+            <a href="#" class="badge kbin_badge-primary kbin_badge-header">Teacher Education</a>
         </div>
     </div>
     <!-- /Pills-->
@@ -231,7 +232,7 @@
                     <div class="row">
                         <div class="col-8">
                             <span class="kbin_grey-text">Posted By</span>
-                            <span class="kbin_collaboratory-name">Jiawan Zhang</span>
+                            <span class="kbin_collaboratory-author-name">Jiawan Zhang</span>
                             <div class="kbin_grey-text">Professor at University At Albany, NY</div>
                         </div>
                         <div class="col-1">
@@ -276,7 +277,7 @@
                     <div class="row">
                         <div class="col-8">
                             <span class="kbin_grey-text">Posted By</span>
-                            <span class="kbin_collaboratory-name">Bodong Chen</span>
+                            <span class="kbin_collaboratory-author-name">Bodong Chen</span>
                             <div class="kbin_grey-text">Professor at University of Minessota - Minneapolis,US</div>
                         </div>
                         <div class="col-1">
@@ -321,7 +322,7 @@
                     <div class="row">
                         <div class="col-8">
                             <span class="kbin_grey-text">Posted By</span>
-                            <span class="kbin_collaboratory-name">Mireia Montane</span>
+                            <span class="kbin_collaboratory-author-name">Mireia Montane</span>
                             <div class="kbin_grey-text">Col-legi de Catalunia - Barcelona, ES</div>
                         </div>
                         <div class="col-1">
@@ -365,7 +366,7 @@
                     <div class="row">
                         <div class="col-8">
                             <span class="kbin_grey-text">Posted By</span>
-                            <span class="kbin_collaboratory-name">Sandy Mcauley</span>
+                            <span class="kbin_collaboratory-author-name">Sandy Mcauley</span>
                             <div class="kbin_grey-text">Professor at University of Prince Edward Island - PEI, CA</div>
                         </div>
                         <div class="col-1">
@@ -409,7 +410,7 @@
                     <div class="row">
                         <div class="col-8">
                             <span class="kbin_grey-text">Posted By</span>
-                            <span class="kbin_collaboratory-name">Glenn Wagner</span>
+                            <span class="kbin_collaboratory-author-name">Glenn Wagner</span>
                             <div class="kbin_grey-text">Grade 12 Physics teacher, CA</div>
                         </div>
                         <div class="col-1">
@@ -453,7 +454,7 @@
                     <div class="row">
                         <div class="col-8">
                             <span class="kbin_grey-text">Posted By</span>
-                            <span class="kbin_collaboratory-name">Kwok-Wing Lai</span>
+                            <span class="kbin_collaboratory-author-name">Kwok-Wing Lai</span>
                             <div class="kbin_grey-text">Professor at University of Otago - Dunedin, NZ</div>
                         </div>
                         <div class="col-1">

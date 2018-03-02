@@ -10,6 +10,10 @@
    .top-buffer {
     margin-top: 20px;
 }
+.kbin_grey-text {
+    color: gray;
+    font-size: 0.8rem;
+}
 .no-padding{
     padding-left: 0px;
     padding-right: 0px;
@@ -23,13 +27,14 @@
 }
 
 .kbin_nav-link {
-    color: #9165ab !important;
+    color: #9165ab;
     font-family: 'Roboto', sans-serif;
-    font-weight: 400;
+    font-weight: 400 ;
     font-size: 15PX;
 }
-.kbin_nav-link-active {
+a.kbin_nav-link-active {
     color: #3b1347 !important;
+    font-weight: bold !important;
 
 }
 .kbin_site-footer {
@@ -83,10 +88,7 @@
 
     text-transform: uppercase;
 }
-.kbin_btn-light{
-    border-radius: 0;
-    color:#3b1347;
-}
+
 .kbin_nav-item{
     border-radius: 0;
     font-size: 1.0rem;
@@ -146,21 +148,23 @@ h5{
         max-width: 1300px;
     }
 }
+.kbin_collaboratory-author-name {
+    text-transform: uppercase;
+    color: #3c1048;
+    font-size: 0.9rem;
+    font-weight: 500;
 
+}
 
 .kbin_badge-primary{
     background-color: #3c1048;
     color: white;
-    border-radius: 0px;
-    padding-top: 1.5vh;
-    padding-bottom: 1.5vh;
-    padding-left: 1vw;
-    padding-right: 1vw;
+
     text-transform: uppercase;
     font-family: 'Anaheim', sans-serif, helvetica;
     font-size: 1rem;
     font-weight: 400;
-    margin-left: 1vw;
+
 }
 .kbin_badge-secondary{
     background-color: #9165ab;
@@ -174,7 +178,68 @@ h5{
     
 }
 
+h2{
+    font-family: 'Anaheim', sans-serif, helvetica;
+    
+    font-weight: 500;
+    opacity: 0.9;
+    color: #3b1347;
+}
 
 
 
+.kbin_long-text {
+    font-family: 'Roboto', sans-serif;
 
+    opacity: 0.9;
+}
+
+.kbin_page-mast-back {
+    
+    height: 50vh;
+    width: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.kbin_page-mast-front {
+    top: 15vh;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    background-color: #3c1048;
+    opacity: 0.9;
+
+}
+.kbin_site-footer {
+    font-family: 'Roboto', sans-serif;
+    background-color: #efefef;
+}
+
+.kbin_site-footer p {
+
+    color: #808080
+}
+
+.top-buffer {
+    margin-top: 20px;
+}
+
+.kbin_h3 {
+    font-family: 'Anaheim', sans-serif, helvetica;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 22px;
+    color: #3b1347;
+}
+
+.kbin_nav-link {
+    color: #9165ab !important;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 15PX;
+}
