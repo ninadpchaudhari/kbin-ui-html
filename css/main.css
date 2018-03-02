@@ -243,3 +243,27 @@ h2{
     font-weight: 400;
     font-size: 15PX;
 }
+.kbin_login-bar {
+    opacity: 0.9;
+}
+
+.kbin_logged-in-info {
+
+    background-color: #3c1048;
+    color: whitesmoke;
+}
+
+
+        
+
+.kbin_teacher-name {
+    color: whitesmoke;
+    font-family: 'Anaheim', sans-serif, helvetica;
+    text-transform: uppercase;
+}
+
+.kbin_teacher-info {
+    color: #9165ab;
+    font-family: 'Anaheim', sans-serif, helvetica;
+
+}
