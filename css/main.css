@@ -10,6 +10,26 @@
    .top-buffer {
     margin-top: 20px;
 }
+h2{
+    font-family: 'Anaheim', sans-serif, helvetica;
+    
+    font-weight: 500;
+    opacity: 0.9;
+    color: #3b1347;
+}
+h5{
+    color: #3c1048;
+    font-family: 'Anaheim', sans-serif, helvetica;
+    font-size:1.5rem;
+    
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #9165ab;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400 ;
+    font-size: 1em;
+}
+
 .kbin_grey-text {
     color: gray;
     font-size: 0.8rem;
@@ -26,12 +46,7 @@
     color: #3b1347;
 }
 
-.kbin_nav-link {
-    color: #9165ab;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400 ;
-    font-size: 15PX;
-}
+
 a.kbin_nav-link-active {
     color: #3b1347 !important;
     font-weight: bold !important;
@@ -119,12 +134,7 @@ a.kbin_nav-link-active {
 .kbin_form-control::placeholder{
     color:rgba(145,101,171,0.5);
 }
-h5{
-    color: #3c1048;
-    font-family: 'Anaheim', sans-serif, helvetica;
-    font-size:1.5rem;
-    
-}
+
 .kbin_main_photo_overlay h5{
     font-family: 'Anaheim', sans-serif, helvetica;
     font-weight: 400;
@@ -143,11 +153,7 @@ h5{
 
 
 
-@media (min-width: 1300px) {
-    .container {
-        max-width: 1300px;
-    }
-}
+
 .kbin_collaboratory-author-name {
     text-transform: uppercase;
     color: #3c1048;
@@ -178,13 +184,7 @@ h5{
     
 }
 
-h2{
-    font-family: 'Anaheim', sans-serif, helvetica;
-    
-    font-weight: 500;
-    opacity: 0.9;
-    color: #3b1347;
-}
+
 
 
 
@@ -237,12 +237,7 @@ h2{
     color: #3b1347;
 }
 
-.kbin_nav-link {
-    color: #9165ab !important;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
-    font-size: 15PX;
-}
+
 .kbin_login-bar {
     opacity: 0.9;
 }
