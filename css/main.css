@@ -62,14 +62,6 @@ a.kbin_nav-link-active {
     color: #808080
 }
 
-.kbin_main_photo_overlay {
-    background-color: #3c1048; 
-    top: 57vh;
-    bottom: auto;
-    width: 50%;
-    left:25%;
-    
-}
 .kbin_btn-primary{
     border-radius: 0;
     background-color: #3b1347;
@@ -135,21 +127,6 @@ a.kbin_nav-link-active {
     color:rgba(145,101,171,0.5);
 }
 
-.kbin_main_photo_overlay h5{
-    font-family: 'Anaheim', sans-serif, helvetica;
-    font-weight: 400;
-    color: rgb(241, 89, 42);
-    font-size: 22px;
-}
-.kbin_main_photo_overlay p{
-    font-family: 'Anaheim', sans-serif, helvetica;
-    font-size: 20pX;
-}
-.kbin_main_photo_overlay p a{
-    font-family: 'Anaheim', sans-serif, helvetica;
-    color: rgb(241, 89, 42);
-    font-size: 20pX;
-}
 
 
 
@@ -190,7 +167,7 @@ a.kbin_nav-link-active {
 
 .kbin_long-text {
     font-family: 'Roboto', sans-serif;
-
+    font-weight: 1.2rem;
     opacity: 0.9;
 }
 
