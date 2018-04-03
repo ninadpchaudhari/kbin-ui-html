@@ -41,35 +41,37 @@
             box-shadow: 0.1rem 0.1rem 0.1rem rgba(0, 0, 0, 0.19);
         }
 
-        
-        @media (min-width: 576px) { /* sm */
+
+        @media (min-width: 576px) {
+            /* sm */
             .card-columns {
                 column-count: 1;
             }
         }
 
-        
+
         @media (min-width: 768px) {
             .card-columns {
                 column-count: 2;
             }
         }
-        
 
-        @media (min-width: 992px) { /* lg */
+
+        @media (min-width: 992px) {
+            /* lg */
             .card-columns {
                 column-count: 2;
-                
-            }
-        }
-        @media (min-width: 1200px) { /* xl */
-            .card-columns {
-                column-count: 3;
-                
+
             }
         }
 
-        
+        @media (min-width: 1200px) {
+            /* xl */
+            .card-columns {
+                column-count: 3;
+
+            }
+        }
     </style>
 
     <link rel="stylesheet" href="css/main.css">
@@ -90,10 +92,10 @@
         <div class="row justify-content-between">
 
 
-            <div class="col-4">
+            <div class="col-12 col-md-4">
                 <img src="img/logo.png" alt="" height="65px">
             </div>
-            <div class="col-6 align-self-center">
+            <div class="col-12 mt-2 mt-md-0 col-md-6 align-self-center">
                 <h3 class="kbin_h3">Global teams extending the limits of the possible in education.</h3>
             </div>
         </div>
@@ -502,26 +504,22 @@
 
         </div>
     </div>
-    <div class="container-fluid kbin_site-footer  top-buffer ">
+    <div class="container-fluid kbin_site-footer">
         <div class="container">
-            <div class="row ">
-                <div class="col-10">
+            <div class="row">
+                <div class="col-12 col-md-9">
                     <p>
                         <br>
                         <i class="far fa-copyright"></i>2018 Knowledge Building Innovation Network.All Rights Reserved
                     </p>
                 </div>
-
-
-                <div class="col-2">
-
-                    <span style="font-size:3em; color:#3b5998">
+                <div class="col-12 col-md-3">
+                    <span style="font-size:3em; color:#3b5998" class="float-right              float-md-none">
                         <i class="fab fa-facebook-square"></i>
                     </span>
-                    <span style="font-size:3em; color:#00aced">
+                    <span style="font-size:3em; color:#00aced" class="float-right mx-2 mx-md-0 float-md-none">
                         <i class="fab fa-twitter-square"></i>
                     </span>
-
                 </div>
 
             </div>
