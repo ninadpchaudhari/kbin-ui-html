@@ -24,7 +24,6 @@
             padding-bottom: 1.5vh;
             padding-left: 1vw;
             padding-right: 1vw;
-            margin-left: 1vw;
         }
 
 
@@ -32,12 +31,6 @@
             color: grey;
             font-family: 'Roboto', sans-serif;
             font-size: 0.8rem;
-        }
-
-        @media (min-width: 576px) {
-            .card-columns {
-                column-gap: 1.9rem;
-            }
         }
 
         .card .card-img-top {
@@ -48,6 +41,35 @@
             box-shadow: 0.1rem 0.1rem 0.1rem rgba(0, 0, 0, 0.19);
         }
 
+        
+        @media (min-width: 576px) { /* sm */
+            .card-columns {
+                column-count: 1;
+            }
+        }
+
+        
+        @media (min-width: 768px) {
+            .card-columns {
+                column-count: 2;
+            }
+        }
+        
+
+        @media (min-width: 992px) { /* lg */
+            .card-columns {
+                column-count: 2;
+                
+            }
+        }
+        @media (min-width: 1200px) { /* xl */
+            .card-columns {
+                column-count: 3;
+                
+            }
+        }
+
+        
     </style>
 
     <link rel="stylesheet" href="css/main.css">
@@ -121,7 +143,7 @@
 
     <div>
         <div class="row kbin_login-bar">
-            <div class="col-10 kbin_logged-in-info">
+            <div class="col-12 col-sm-8 col-md-9 col-lg-10 kbin_logged-in-info">
                 <div class="media">
                     <img class=" mr-3 float-left" src="img/collaboratory/profile_pic.jpg" alt="Profile Picture">
                     <div class="media-body align-self-center">
@@ -132,7 +154,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-2 no-padding ">
+            <div class="col-12 col-sm-4 col-md-3 col-lg-2 no-padding ">
                 <button class="btn kbin_btn-orange" onclick="window.location.href='create-challenge.html'" style="height:100%;width:100%">Create Challenge</button>
             </div>
         </div>
@@ -141,17 +163,18 @@
     <!-- /Login Info-->
     <div class="container">
         <br>
-        <div class="row justify-content-between top-buffer">
-            <div class="col-7 align-self-center">
+        <div class="row top-buffer">
+            <div class="col-sm-12 col-md-6 align-self-center">
                 <h5 class="align-middle ">Open Innovation Challenges</h5>
             </div>
-            <div class="col-4">
-                <form class="form-inline" style="padding:0;">
-                    <div class="form-group mx-sm-3 ">
+            <div class="col-sm-12 col-md-6">
+                <form class="form-inline float-md-right" style="padding:0;">
 
-                        <input type="text" class="form-control kbin_form-control" id="search_box" placeholder="Search Something here">
-                    </div>
-                    <button type="submit" class="btn kbin_btn-primary ">Search</button>
+
+                    <input type="text" class="form-control kbin_form-control col-12 col-sm-6 col-md-8" id="search_box" placeholder="Search Something here">
+                    <button type="submit" class="btn kbin_btn-primary mx-sm-0 col-12 col-sm-auto  my-1 my-sm-0 mx-auto">Search</button>
+
+
                 </form>
 
             </div>
@@ -180,14 +203,14 @@
             <br>
         </div>
         <div class="row justify-content-center">
-            <a href="#" class="badge kbin_badge-primary kbin_badge-header">Computer Science</a>
-            <a href="#" class="badge kbin_badge-primary kbin_badge-header">Engineering</a>
-            <a href="#" class="badge kbin_badge-primary kbin_badge-header">Mathematics</a>
-            <a href="#" class="badge kbin_badge-primary kbin_badge-header">Language arts</a>
-            <a href="#" class="badge kbin_badge-primary kbin_badge-header">Music</a>
-            <a href="#" class="badge kbin_badge-primary kbin_badge-header">Science</a>
-            <a href="#" class="badge kbin_badge-primary kbin_badge-header">Social Studies</a>
-            <a href="#" class="badge kbin_badge-primary kbin_badge-header">Teacher Education</a>
+            <a href="#" class="badge kbin_badge-primary kbin_badge-header mb-1 ml-1">Computer Science</a>
+            <a href="#" class="badge kbin_badge-primary kbin_badge-header mb-1 ml-1">Engineering</a>
+            <a href="#" class="badge kbin_badge-primary kbin_badge-header mb-1 ml-1">Mathematics</a>
+            <a href="#" class="badge kbin_badge-primary kbin_badge-header mb-1 ml-1">Language arts</a>
+            <a href="#" class="badge kbin_badge-primary kbin_badge-header mb-1 ml-1">Music</a>
+            <a href="#" class="badge kbin_badge-primary kbin_badge-header mb-1 ml-1">Science</a>
+            <a href="#" class="badge kbin_badge-primary kbin_badge-header mb-1 ml-1">Social Studies</a>
+            <a href="#" class="badge kbin_badge-primary kbin_badge-header mb-1 ml-1">Teacher Education</a>
         </div>
     </div>
     <!-- /Pills-->
@@ -206,8 +229,8 @@
                             <span class="kbin_collaboratory-author-name">Jiawan Zhang</span>
                             <div class="kbin_grey-text">Professor at University At Albany, NY</div>
                         </div>
-                        <div class="col-1">
-                            <button type="button" class="btn kbin_btn-secondary">Build On</button>
+                        <div class="col-4 my-auto">
+                            <button type="button" class="float-right btn kbin_btn-secondary ">Build On</button>
                         </div>
                     </div>
                 </div>
@@ -251,8 +274,8 @@
                             <span class="kbin_collaboratory-author-name">Bodong Chen</span>
                             <div class="kbin_grey-text">Professor at University of Minessota - Minneapolis,US</div>
                         </div>
-                        <div class="col-1">
-                            <button type="button" class="btn kbin_btn-secondary">Build On</button>
+                        <div class="col-4 my-auto">
+                            <button type="button" class="float-right btn kbin_btn-secondary">Build On</button>
                         </div>
                     </div>
                 </div>
@@ -296,8 +319,8 @@
                             <span class="kbin_collaboratory-author-name">Mireia Montane</span>
                             <div class="kbin_grey-text">Col-legi de Catalunia - Barcelona, ES</div>
                         </div>
-                        <div class="col-1">
-                            <button type="button" class="btn kbin_btn-secondary">Build On</button>
+                        <div class="col-4 my-auto">
+                            <button type="button" class="float-right btn kbin_btn-secondary">Build On</button>
                         </div>
                     </div>
                 </div>
@@ -340,8 +363,8 @@
                             <span class="kbin_collaboratory-author-name">Sandy Mcauley</span>
                             <div class="kbin_grey-text">Professor at University of Prince Edward Island - PEI, CA</div>
                         </div>
-                        <div class="col-1">
-                            <button type="button" class="btn kbin_btn-secondary">Build On</button>
+                        <div class="col-4 my-auto">
+                            <button type="button" class="float-right btn kbin_btn-secondary">Build On</button>
                         </div>
                     </div>
                 </div>
@@ -384,8 +407,8 @@
                             <span class="kbin_collaboratory-author-name">Glenn Wagner</span>
                             <div class="kbin_grey-text">Grade 12 Physics teacher, CA</div>
                         </div>
-                        <div class="col-1">
-                            <button type="button" class="btn kbin_btn-secondary">Build On</button>
+                        <div class="col-4 my-auto">
+                            <button type="button" class="float-right btn kbin_btn-secondary">Build On</button>
                         </div>
                     </div>
                 </div>
@@ -428,8 +451,8 @@
                             <span class="kbin_collaboratory-author-name">Kwok-Wing Lai</span>
                             <div class="kbin_grey-text">Professor at University of Otago - Dunedin, NZ</div>
                         </div>
-                        <div class="col-1">
-                            <button type="button" class="btn kbin_btn-secondary">Build On</button>
+                        <div class="col-4 my-auto">
+                            <button type="button" class="float-right btn kbin_btn-secondary">Build On</button>
                         </div>
                     </div>
                 </div>
